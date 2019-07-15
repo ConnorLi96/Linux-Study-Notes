@@ -20,7 +20,9 @@
 
 ### 第五步 config 设置
 ```touch config``` 创建
+
 ```chmod 600 config```权限
+
 ```vim config```暂时不知道
 
 ### 第六部 端口设置以便浏览器访问
