@@ -28,5 +28,10 @@
 ### 第六部 端口设置以便浏览器访问
 ```ssh -NfL 9000:localhost:8080 work@hdp00.gridb.io -i ~/.ssh/testnet-work ```
 
+
+### SCP 本地到远程复制
+
+```scp -i JP-TOKEN.txt /Users/lichenxi/Trello_csv.py ubuntu@3.112.61.135:/home/ubuntu/nifi/nifi-test```
+
 ### Refs
 使用SSH连接Linux服务器 https://www.jianshu.com/p/59c4fc2684be
