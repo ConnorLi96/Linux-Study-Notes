@@ -11,7 +11,7 @@
 
 ```ps aux | grep nifi``` 查看当前进程
 
-```find . -iname "*-*"`` 查找
+```find . -iname "*-*"``` 查找
 
 ```find . -iname "*-*" -type f ! -iname "*.py"```查找文件并排除 .py 文件 
 
