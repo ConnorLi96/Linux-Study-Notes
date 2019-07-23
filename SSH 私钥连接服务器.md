@@ -33,5 +33,8 @@
 
 ```scp -i JP-TOKEN.txt /Users/lichenxi/Trello_csv.py ubuntu@3.112.61.135:/home/ubuntu/nifi/nifi-test```
 
+### 查看端口的情况
+```curl -Lsvvv http://3.112.61.135:7890/nifi/```
+
 ### Refs
 使用SSH连接Linux服务器 https://www.jianshu.com/p/59c4fc2684be
