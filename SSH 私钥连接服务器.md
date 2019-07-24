@@ -33,7 +33,9 @@
 
 ```scp -i JP-TOKEN.txt /Users/lichenxi/Trello_csv.py ubuntu@3.112.61.135:/home/ubuntu/nifi/nifi-test```
 
-### 查看端口的情况
+scp -i JP-TOKEN.txt ubuntu@3.112.61.135:/home/ubuntu/nifi/nifi-test/test-data/filename /Users/lichenxi/venv/CovenantSQL
+
+### 查看端口的情况a
 ```curl -Lsvvv http://3.112.61.135:7890/nifi/```
 
 ### Refs
