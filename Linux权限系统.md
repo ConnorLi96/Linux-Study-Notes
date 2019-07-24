@@ -17,6 +17,8 @@
 
 ```find . -iname "*-*" -type f ! -iname "*.py" -maxdepth 1 | xargs rm``` maxdepth 暂时不知道是啥
 
+```find . -iname "*2019*" -exec rm -f {} \;``` {} 花括号代表把找到的文件... ```\;```表示识别转义字符并且命令行结束
+
 ```ll -hlrt``` 查看当前目录的文件并按照时间排序
 
 
