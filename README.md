@@ -5,4 +5,4 @@ add Linux Study Notes
 
 - [Linux 权限系统](https://github.com/ConnorLi96/Linux-Study-Notes/blob/master/Linux%E6%9D%83%E9%99%90%E7%B3%BB%E7%BB%9F.md)
 
-- [Linux 端口连接系统] (https://github.com/ConnorLi96/Linux-Study-Notes/blob/master/Linux%20%E7%BD%91%E7%BB%9C%E7%AB%AF%E5%8F%A3%E7%B3%BB%E7%BB%9F.md)
+- [Linux 端口连接系统](https://github.com/ConnorLi96/Linux-Study-Notes/blob/master/Linux%20%E7%BD%91%E7%BB%9C%E7%AB%AF%E5%8F%A3%E7%B3%BB%E7%BB%9F.md)
