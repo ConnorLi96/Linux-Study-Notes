@@ -7,3 +7,5 @@
 ```curl -Lsvvv http://3.112.61.135:7890/nifi/```在本地本地查看端口信息
 
 把 host 改成 ```0.0.0.0``` 会默认到机器的地址
+
+TCP/IP 协议 https://juejin.im/post/5a069b6d51882509e5432656
