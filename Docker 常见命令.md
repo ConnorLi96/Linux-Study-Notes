@@ -25,5 +25,14 @@ docker run nifi-registry 初始化配置
 ```
 sudo docker run --ulimit nofile=100000:100000 --name nifi-registry   -v /home/ubuntu/nifi-toolkit-1.8.0/certs/ip-172-31-21-15.ap-east-1.compute.internal:/opt/certs  -p 18443:18443  -e AUTH=tls   -e KEYSTORE_PATH=/opt/certs/keystore.jks   -e KEYSTORE_TYPE=JKS   -e KEYSTORE_PASSWORD=R7ZcOThXoMhxL/HeJcuuf02JxDGEjXr344mVG6oWixk   -e TRUSTSTORE_PATH=/opt/certs/truststore.jks   -e TRUSTSTORE_PASSWORD=WBwNVGxns/+sZ5AtcxC6XffERQOnABjvJiwIneu6JIQ  -e TRUSTSTORE_TYPE=JKS   -e INITIAL_ADMIN_IDENTITY='CN=AdminUser, OU=nifi'   -e NIFI_WEB_HTTPS_PORT=18443   -e 'NIFI_WEB_PROXY_HOST=ip-172-31-21-15.ap-east-1.compute.internal:18443'   -d  apache/nifi-registry:latest  
   ```
-  
-  
+
+以 root 用户进入 docker 配置文件
+
+```sudo docker exec --user root -it nifi-tls bash```
+
+
+查看配置等信息
+```docker inspect [images] ```
+
+```docker cp 
+   
