@@ -23,4 +23,7 @@
 
 ```ll -hlrt``` 查看当前目录的文件并按照时间排序
 
+```sudo -iu hdfs /bin/bash``` Linux 切换用户
+
+``` hdfs dfs -chmod -R /path``` 
 
