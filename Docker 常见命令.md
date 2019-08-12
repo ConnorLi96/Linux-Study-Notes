@@ -34,5 +34,6 @@ sudo docker run --ulimit nofile=100000:100000 --name nifi-registry   -v /home/ub
 查看配置等信息
 ```docker inspect [images] ```
 
-```docker cp 
+复制 ..
+```docker cp ``` 
    
