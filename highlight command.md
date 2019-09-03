@@ -2,7 +2,7 @@
 ```
 cd  
 ```
-- Step2: edit bash_profile file
+- Step2: edit bash_profile file, [edit and save](https://github.com/ConnorLi96/Linux-Study-Notes/blob/master/vim-and-log.md) after enter edit enviornment
 ```
 vim .bash_profile 
 ```
