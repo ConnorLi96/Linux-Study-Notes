@@ -2,7 +2,7 @@
 ```
 cd  
 ```
-- Step2: edit bash_profile file, [edit and save](https://github.com/ConnorLi96/Linux-Study-Notes/blob/master/vim-and-log.md) after enter edit enviornment
+- Step2: edit bash_profile file
 ```
 vim .bash_profile 
 ```
@@ -24,6 +24,8 @@ export LSCOLORS='Exfxcxdxbxegedabagacad' #指定颜色
 export GOPATH=/Users/laodouya/gopath
 eval `keychain --eval --agents ssh --inherit any id_rsa`
 ```
+
+btw: how to [edit and save](https://github.com/ConnorLi96/Linux-Study-Notes/blob/master/vim-and-log.md) in vim, if you don't know.
 
 - Step4: make it effective
 ```
