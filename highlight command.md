@@ -1,8 +1,13 @@
-
+- Step1: enter in the home path
 ```
-cd 
-vim .bash_profile
-
+cd  
+```
+- Step2: edit bash_profile file
+```
+vim .bash_profile 
+```
+- Step3: copy all content into the .bash_profile 
+```
 # some more ls aliases
 alias ll='ls -lF'
 alias la='ls -A'
@@ -18,6 +23,9 @@ export CLICOLOR='Yes' #是否输出颜色
 export LSCOLORS='Exfxcxdxbxegedabagacad' #指定颜色
 export GOPATH=/Users/laodouya/gopath
 eval `keychain --eval --agents ssh --inherit any id_rsa`
+```
 
+- Step4: make it effective
+```
 source .bash_profile
 ```
