@@ -1,7 +1,7 @@
 主要分为几个步骤：
 - scp code
-- 配置 runner
-- docker
+- 配置 gitlab-runner
+- docker 起
 
 
 - 配置 gitlab-runner 
@@ -12,3 +12,8 @@
 
 各种项目语言的 ci 配置文件
 https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates
+
+- go 的坑，再拉取极光推送依赖包的时候有问题，因为 golang.org 被墙了，需要加上```go env -w GOPROXY=https://goproxy.cn,direct```
+
+
+- ```nc -vz localhost 15432``` 查看本地端口是否在运行
