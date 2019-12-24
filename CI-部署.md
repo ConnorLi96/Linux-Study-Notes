@@ -16,8 +16,9 @@ https://gitlab.com/gitlab-org/gitlab-foss/blob/master/lib/gitlab/ci/templates
 
 #### 配置 docker-compose file
 ##### tag 部署
+
 ##### 配置静态 IP 
- 
+https://docs.docker.com/compose/compose-file/compose-file-v2/#ipv4_address-ipv6_address 
 
 ##### 配置 gitlab-runner config file
 
