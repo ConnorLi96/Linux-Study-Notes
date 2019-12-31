@@ -41,6 +41,8 @@ https://docs.docker.com/compose/compose-file/compose-file-v2/#ipv4_address-ipv6_
 
 
 #### golang 的单元测试
+golang 被墙的，编译的时候需要加一个配置：
+```go env -w GOPROXY=https://goproxy.cn,direct```
 
 ##### 配置 config-test 
 - go 的坑，再拉取极光推送依赖包的时候有问题，因为 golang.org 被墙了，需要加上```go env -w GOPROXY=https://goproxy.cn,direct```
