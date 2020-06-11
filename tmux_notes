@@ -1,0 +1,5 @@
+更换配置到 crtl + A:
+vi ~/.tmux.conf
+set -g prefix C-a
+tmux source-file ~/.tmux.conf
+ 
